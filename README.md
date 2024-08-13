@@ -13,15 +13,15 @@ characters to the LCD, and performing the business logic of the project like bli
 - LCD display
 - keypad
 
-## 1. LED Blinker
+### LED Blinker
 
 User could enter in desired blink rate and the program would blink the led's. Simple result, but I was in awe at the time.
 
-## 2. Function Generator
+### Function Generator
 
 Program generates a user-specified function (saw, square, sine) via the Adapt9S12D's onboard 12 V, 10-pin DAC.
 
-## 3. Motor Controller
+### Motor Controller
 
 Program controls a brushless DC motor via PWM according to user-specified reference voltage, proportional gain, and integral gain.
 The MOSFETS and other hardware weren't part of this project.
