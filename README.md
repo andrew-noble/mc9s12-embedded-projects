@@ -1,9 +1,9 @@
-# HCS12 Embedded Projects
+# MC9S12 Embedded Projects
 
 This repo has a couple embedded software projects I made in college.
 To date, I don't think I've been as intellectually excited as I was when I did these projects, so I have them here for posterity.
 
-They were written for the motorola (then freescale, now NXP) MC9S12XDP512 microcontroller and I used codewarrior as an IDE. All three projects
+They were written for the motorola (then freescale, now NXP) MC9S12XDP512 microcontroller and I used codewarrior as an IDE. This family of microcontrollers uses the 16-bit HCS12 assembly language. All three projects
 incorporated cooperative multitasking to accomplish several disparate tasks simultaneously like detecting keypad presses, displaying
 characters to the LCD, and performing the "business logic" of the project like blinking led's or PID control logic.
 
